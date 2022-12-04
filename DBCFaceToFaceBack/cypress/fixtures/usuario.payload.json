@@ -1,0 +1,15 @@
+{
+    "nomeCompleto": "testeapiauto",
+    "cidade": "teste",
+    "estado": "teste",
+    "email": "pietro.bianchi@dbccompany.com.br",
+    "trilha": {
+      "nome": "QA"
+    },
+    "perfis": [
+      {
+        "nome": "ROLE_INSTRUTOR"
+      }
+    ],
+    "ativo": "T"
+  }

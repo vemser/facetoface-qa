@@ -1,0 +1,544 @@
+{
+  "uid" : "119b1653a9dba704",
+  "name" : "Validar criar usuario sem preencher campos",
+  "fullName" : "Validar criar usuario sem preencher campos",
+  "historyId" : "26eb4060fb4b24d3b31712f04f53b889",
+  "time" : {
+    "start" : 1670180288207,
+    "stop" : 1670180292578,
+    "duration" : 4371
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1670180288207,
+        "stop" : 1670180288436,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://facetoface-front.vercel.app/",
+        "time" : {
+          "start" : 1670180288211,
+          "stop" : 1670180288435,
+          "duration" : 224
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1670180288436,
+        "stop" : 1670180292301,
+        "duration" : 3865
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #input-user-sign-in",
+        "time" : {
+          "start" : 1670180288436,
+          "stop" : 1670180288441,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "type julio.gabriel@dbccompany.com.br",
+        "time" : {
+          "start" : 1670180288441,
+          "stop" : 1670180289045,
+          "duration" : 604
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get #input-password-sign-in",
+        "time" : {
+          "start" : 1670180289045,
+          "stop" : 1670180289048,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "type 123",
+        "time" : {
+          "start" : 1670180289048,
+          "stop" : 1670180289219,
+          "duration" : 171
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get #button-sign-in",
+        "time" : {
+          "start" : 1670180289219,
+          "stop" : 1670180289220,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1670180289220,
+          "stop" : 1670180289299,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/auth/fazer-login",
+        "time" : {
+          "start" : 1670180289299,
+          "stop" : 1670180289299,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "wait 3000",
+        "time" : {
+          "start" : 1670180289299,
+          "stop" : 1670180292301,
+          "duration" : 3002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario/logado",
+        "time" : {
+          "start" : 1670180292300,
+          "stop" : 1670180292300,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/candidato?pagina=0&tamanho=10",
+        "time" : {
+          "start" : 1670180292300,
+          "stop" : 1670180292300,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario?pagina=0&tamanho=10",
+        "time" : {
+          "start" : 1670180292300,
+          "stop" : 1670180292300,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario/recuperar-imagem?email=julio.gabriel@dbccompany.com.br",
+        "time" : {
+          "start" : 1670180292301,
+          "stop" : 1670180292301,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario/email?email=julio.gabriel@dbccompany.com.br",
+        "time" : {
+          "start" : 1670180292301,
+          "stop" : 1670180292301,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 13,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #root > div > div.MuiDrawer-root.MuiDrawer-docked.css-1tu59u4 > div > div > div.MuiBox-root.css-1rr4qq7 > nav > div:nth-child(2)",
+      "time" : {
+        "start" : 1670180292308,
+        "stop" : 1670180292312,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180292312,
+        "stop" : 1670180292427,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://facetoface-front.vercel.app/register-user",
+      "time" : {
+        "start" : 1670180292426,
+        "stop" : 1670180292426,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #button-submit-register-user",
+      "time" : {
+        "start" : 1670180292427,
+        "stop" : 1670180292432,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180292432,
+        "stop" : 1670180292523,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #error-name-register-user",
+      "time" : {
+        "start" : 1670180292523,
+        "stop" : 1670180292533,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h6#error-name-register-user.MuiTypography-root.MuiTypography-subtitle1.css-rd6jax>** to contain **Nome completo é obrigatório!**",
+      "time" : {
+        "start" : 1670180292532,
+        "stop" : 1670180292532,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #error-email-register-user",
+      "time" : {
+        "start" : 1670180292533,
+        "stop" : 1670180292543,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h6#error-email-register-user.MuiTypography-root.MuiTypography-subtitle1.css-rd6jax>** to contain **Email é obrigatório!**",
+      "time" : {
+        "start" : 1670180292543,
+        "stop" : 1670180292543,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #error-cidade-register-user",
+      "time" : {
+        "start" : 1670180292543,
+        "stop" : 1670180292551,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h6#error-cidade-register-user.MuiTypography-root.MuiTypography-subtitle1.css-rd6jax>** to contain **Cidade é obrigatório!**",
+      "time" : {
+        "start" : 1670180292551,
+        "stop" : 1670180292551,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #error-state-register-user",
+      "time" : {
+        "start" : 1670180292551,
+        "stop" : 1670180292559,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h6#error-state-register-user.MuiTypography-root.MuiTypography-subtitle1.css-rd6jax>** to contain **Estado é obrigatório!**",
+      "time" : {
+        "start" : 1670180292559,
+        "stop" : 1670180292559,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #error-genero-register-user",
+      "time" : {
+        "start" : 1670180292559,
+        "stop" : 1670180292569,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h6#error-genero-register-user.MuiTypography-root.MuiTypography-subtitle1.css-rd6jax>** to contain **Gênero é obrigatório!**",
+      "time" : {
+        "start" : 1670180292569,
+        "stop" : 1670180292569,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #error-type-register-user",
+      "time" : {
+        "start" : 1670180292569,
+        "stop" : 1670180292578,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h6#error-type-register-user.MuiTypography-root.MuiTypography-subtitle1.css-rd6jax>** to contain **Campo obrigatório!**",
+      "time" : {
+        "start" : 1670180292578,
+        "stop" : 1670180292578,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 33,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registrar Usuario"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste executado com sucesso",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "119b1653a9dba704.json",
+  "parameterValues" : [ ]
+}

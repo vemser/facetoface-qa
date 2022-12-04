@@ -1,0 +1,211 @@
+[ {
+  "uid" : "360358168e41401a",
+  "name" : "Busca candidato por nome",
+  "time" : {
+    "start" : 1670180123636,
+    "stop" : 1670180131381,
+    "duration" : 7745
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2b7a2a953973b4",
+  "name" : "edit perfil",
+  "time" : {
+    "start" : 1670180144513,
+    "stop" : 1670180148701,
+    "duration" : 4188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e493642c40b4a4ec",
+  "name" : "Validar login com erro",
+  "time" : {
+    "start" : 1670180179566,
+    "stop" : 1670180181321,
+    "duration" : 1755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9da3619df94c4b80",
+  "name" : "Validar troca de senha sem preencher campos",
+  "time" : {
+    "start" : 1670180116696,
+    "stop" : 1670180121738,
+    "duration" : 5042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b383a45e668d254",
+  "name" : "Validar redirecionamento esqueci minha senha",
+  "time" : {
+    "start" : 1670180182909,
+    "stop" : 1670180183136,
+    "duration" : 227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da111e3025882146",
+  "name" : "Validar criar candidato sem preencher campos",
+  "time" : {
+    "start" : 1670180203758,
+    "stop" : 1670180208104,
+    "duration" : 4346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d28af17b4f32b25a",
+  "name" : "cadastro de candidato e marcaçao de entrevista",
+  "time" : {
+    "start" : 1670180151494,
+    "stop" : 1670180173251,
+    "duration" : 21757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37ac7182ddd23f18",
+  "name" : "Validar login sem preencher campo user",
+  "time" : {
+    "start" : 1670180182429,
+    "stop" : 1670180182904,
+    "duration" : 475
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a807a5c33a8ad6a2",
+  "name" : "Validar criar candidato preenchendo campos nao obrigatórios",
+  "time" : {
+    "start" : 1670180208130,
+    "stop" : 1670180213117,
+    "duration" : 4987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6686260ad97b97a6",
+  "name" : "Validar login sem preencher campos",
+  "time" : {
+    "start" : 1670180181328,
+    "stop" : 1670180181584,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e3318d3cd28d072",
+  "name" : "Validar login sem preencher campo senha",
+  "time" : {
+    "start" : 1670180181588,
+    "stop" : 1670180182423,
+    "duration" : 835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ac6aedcc8b31fa0",
+  "name" : "Busca candidato por edicao",
+  "time" : {
+    "start" : 1670180135732,
+    "stop" : 1670180140122,
+    "duration" : 4390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76b7b49b42d2b9d9",
+  "name" : "Busca candidato por trilha",
+  "time" : {
+    "start" : 1670180140131,
+    "stop" : 1670180144501,
+    "duration" : 4370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "119b1653a9dba704",
+  "name" : "Validar criar usuario sem preencher campos",
+  "time" : {
+    "start" : 1670180288207,
+    "stop" : 1670180292578,
+    "duration" : 4371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c129aa77656f5be",
+  "name" : "Validar criar entrevista com sucesso",
+  "time" : {
+    "start" : 1670180215259,
+    "stop" : 1670180230579,
+    "duration" : 15320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "690d9e9c5c3e475b",
+  "name" : "Validar login com sucesso",
+  "time" : {
+    "start" : 1670180175273,
+    "stop" : 1670180179555,
+    "duration" : 4282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7da81cd2b83ee489",
+  "name" : "Validar criar entrevista sem preencher campos",
+  "time" : {
+    "start" : 1670180230594,
+    "stop" : 1670180234898,
+    "duration" : 4304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e3b2a9add459777",
+  "name" : "Validar criar entrevista para um candidato com entrevista ja marcada",
+  "time" : {
+    "start" : 1670180254873,
+    "stop" : 1670180274475,
+    "duration" : 19602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f530a4151417cf96",
+  "name" : "Validar criar candidato preenchendo campos obrigatórios",
+  "time" : {
+    "start" : 1670180196135,
+    "stop" : 1670180203750,
+    "duration" : 7615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c75cafe4d358b526",
+  "name" : "Validar criar candidato com sucesso",
+  "time" : {
+    "start" : 1670180185422,
+    "stop" : 1670180196116,
+    "duration" : 10694
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47dce527cd5aa563",
+  "name" : "Validar criar usuario com sucesso",
+  "time" : {
+    "start" : 1670180280692,
+    "stop" : 1670180288200,
+    "duration" : 7508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

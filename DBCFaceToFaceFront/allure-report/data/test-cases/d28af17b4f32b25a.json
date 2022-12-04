@@ -1,0 +1,1945 @@
+{
+  "uid" : "d28af17b4f32b25a",
+  "name" : "cadastro de candidato e marcaçao de entrevista",
+  "fullName" : "cadastro de candidato e marcaçao de entrevista",
+  "historyId" : "748e2f572b23f0d3a3854330b5134653",
+  "time" : {
+    "start" : 1670180151494,
+    "stop" : 1670180173251,
+    "duration" : 21757
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1670180151495,
+        "stop" : 1670180151811,
+        "duration" : 316
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://facetoface-front.vercel.app/",
+        "time" : {
+          "start" : 1670180151504,
+          "stop" : 1670180151810,
+          "duration" : 306
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1670180151811,
+        "stop" : 1670180155778,
+        "duration" : 3967
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #input-user-sign-in",
+        "time" : {
+          "start" : 1670180151813,
+          "stop" : 1670180151873,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "type julio.gabriel@dbccompany.com.br",
+        "time" : {
+          "start" : 1670180151873,
+          "stop" : 1670180152512,
+          "duration" : 639
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get #input-password-sign-in",
+        "time" : {
+          "start" : 1670180152512,
+          "stop" : 1670180152516,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "type 123",
+        "time" : {
+          "start" : 1670180152516,
+          "stop" : 1670180152690,
+          "duration" : 174
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get #button-sign-in",
+        "time" : {
+          "start" : 1670180152690,
+          "stop" : 1670180152695,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1670180152695,
+          "stop" : 1670180152774,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/auth/fazer-login",
+        "time" : {
+          "start" : 1670180152774,
+          "stop" : 1670180152774,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "wait 3000",
+        "time" : {
+          "start" : 1670180152774,
+          "stop" : 1670180155778,
+          "duration" : 3004
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario/logado",
+        "time" : {
+          "start" : 1670180155777,
+          "stop" : 1670180155777,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/candidato?pagina=0&tamanho=10",
+        "time" : {
+          "start" : 1670180155777,
+          "stop" : 1670180155777,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario?pagina=0&tamanho=10",
+        "time" : {
+          "start" : 1670180155777,
+          "stop" : 1670180155777,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario/recuperar-imagem?email=julio.gabriel@dbccompany.com.br",
+        "time" : {
+          "start" : 1670180155778,
+          "stop" : 1670180155778,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario/email?email=julio.gabriel@dbccompany.com.br",
+        "time" : {
+          "start" : 1670180155778,
+          "stop" : 1670180155778,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 13,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #root > div > div.MuiDrawer-root.MuiDrawer-docked.css-1tu59u4 > div > div > div.MuiBox-root.css-16vpxei > p",
+      "time" : {
+        "start" : 1670180155786,
+        "stop" : 1670180155797,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<p.MuiTypography-root.MuiTypography-body1.css-v08119>** to contain **Olá, Ályson**",
+      "time" : {
+        "start" : 1670180155797,
+        "stop" : 1670180155797,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #root > div > div.MuiDrawer-root.MuiDrawer-docked.css-1tu59u4 > div > div > div.MuiBox-root.css-1rr4qq7 > nav > div:nth-child(3)",
+      "time" : {
+        "start" : 1670180155797,
+        "stop" : 1670180155804,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180155804,
+        "stop" : 1670180155929,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://facetoface-front.vercel.app/register-candidate",
+      "time" : {
+        "start" : 1670180155928,
+        "stop" : 1670180155928,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "fixture (\"readpdf.pdf\")",
+      "time" : {
+        "start" : 1670180155929,
+        "stop" : 1670180155932,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-cv-register-candidate",
+      "time" : {
+        "start" : 1670180155932,
+        "stop" : 1670180155939,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "attachFile (\"{ fileContent: '%PDF-1.3\\r\\n%����\\r\\n\\r\\n1 0 obj\\r\\n<<\\r\\n/Type /C'... 2988 more characters, fileName: 'readpdf.pdf', mimeType: 'application/pdf' }\"; \"{ subjectType: 'input' }\")",
+      "time" : {
+        "start" : 1670180155940,
+        "stop" : 1670180155954,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "attachFile readpdf.pdf",
+        "time" : {
+          "start" : 1670180155954,
+          "stop" : 1670180155954,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-name-register-candidate",
+      "time" : {
+        "start" : 1670180155955,
+        "stop" : 1670180155962,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type Marta Golpista",
+      "time" : {
+        "start" : 1670180155962,
+        "stop" : 1670180156397,
+        "duration" : 435
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-email-register-candidate",
+      "time" : {
+        "start" : 1670180156397,
+        "stop" : 1670180156403,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type pietro.bianchi@dbccompany.com.br",
+      "time" : {
+        "start" : 1670180156403,
+        "stop" : 1670180157197,
+        "duration" : 794
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-city-register-candidate",
+      "time" : {
+        "start" : 1670180157197,
+        "stop" : 1670180157204,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type Belo Horizonte",
+      "time" : {
+        "start" : 1670180157204,
+        "stop" : 1670180157615,
+        "duration" : 411
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-state-register-candidate",
+      "time" : {
+        "start" : 1670180157615,
+        "stop" : 1670180157622,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type MG",
+      "time" : {
+        "start" : 1670180157622,
+        "stop" : 1670180157802,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-languages-register-candidate",
+      "time" : {
+        "start" : 1670180157803,
+        "stop" : 1670180157810,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type JAVA",
+      "time" : {
+        "start" : 1670180157810,
+        "stop" : 1670180158029,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #form-register-candidate > div:nth-child(3) > div:nth-child(4) > div > div > div > button",
+      "time" : {
+        "start" : 1670180158029,
+        "stop" : 1670180158036,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180158036,
+        "stop" : 1670180158136,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #select-edition",
+      "time" : {
+        "start" : 1670180158136,
+        "stop" : 1670180158143,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180158143,
+        "stop" : 1670180158245,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #edicao-10",
+      "time" : {
+        "start" : 1670180158245,
+        "stop" : 1670180158253,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180158253,
+        "stop" : 1670180158433,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #genre-masculino-register-candidato",
+      "time" : {
+        "start" : 1670180158433,
+        "stop" : 1670180158441,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180158441,
+        "stop" : 1670180158833,
+        "duration" : 392
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #qa-register-candidate",
+      "time" : {
+        "start" : 1670180158833,
+        "stop" : 1670180158841,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180158841,
+        "stop" : 1670180158940,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-observation-register-candidate",
+      "time" : {
+        "start" : 1670180158940,
+        "stop" : 1670180158948,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type OBS TESTE",
+      "time" : {
+        "start" : 1670180158948,
+        "stop" : 1670180159275,
+        "duration" : 327
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #button-submit-register-candidate",
+      "time" : {
+        "start" : 1670180159275,
+        "stop" : 1670180159284,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180159284,
+        "stop" : 1670180159372,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/candidato?genero=MASCULINO",
+      "time" : {
+        "start" : 1670180159372,
+        "stop" : 1670180159372,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .Toastify__toast-body > :nth-child(2)",
+      "time" : {
+        "start" : 1670180159372,
+        "stop" : 1670180159564,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://facetoface-front.vercel.app/",
+      "time" : {
+        "start" : 1670180159564,
+        "stop" : 1670180159564,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "PUT http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/candidato/upload-curriculo?email=pietro.bianchi@dbccompany.com.br",
+      "time" : {
+        "start" : 1670180159564,
+        "stop" : 1670180159564,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/candidato?pagina=0&tamanho=10",
+      "time" : {
+        "start" : 1670180159564,
+        "stop" : 1670180159564,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario?pagina=0&tamanho=10",
+      "time" : {
+        "start" : 1670180159564,
+        "stop" : 1670180159564,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<div>** to contain **Candidato cadastrado com sucesso!**",
+      "time" : {
+        "start" : 1670180159564,
+        "stop" : 1670180159564,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-search-home",
+      "time" : {
+        "start" : 1670180159564,
+        "stop" : 1670180159575,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type Marta Golpista, {force: true}",
+      "time" : {
+        "start" : 1670180159575,
+        "stop" : 1670180160044,
+        "duration" : 469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #root > div > div.MuiBox-root.css-v3si1q > div.MuiBox-root.css-uery8 > div.MuiBox-root.css-7fk3ng > div > div.MuiFormControl-root.MuiTextField-root.css-dlwbzx > div > div > button",
+      "time" : {
+        "start" : 1670180160044,
+        "stop" : 1670180160056,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click {force: true}",
+      "time" : {
+        "start" : 1670180160056,
+        "stop" : 1670180160123,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/candidato/listar-candidato-cadastro-por-nome-ou-por-trilha?pagina=0&tamanho=10&nomeCompleto=Marta Golpista",
+      "time" : {
+        "start" : 1670180160123,
+        "stop" : 1670180160123,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/candidato/listar-candidato-cadastro-por-nome-ou-por-trilha?pagina=0&tamanho=10&nomeCompleto=Marta%20Golpista",
+      "time" : {
+        "start" : 1670180160123,
+        "stop" : 1670180160123,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait 3000",
+      "time" : {
+        "start" : 1670180160123,
+        "stop" : 1670180163125,
+        "duration" : 3002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .css-1m618co",
+      "time" : {
+        "start" : 1670180163125,
+        "stop" : 1670180163137,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<p.MuiTypography-root.MuiTypography-body1.css-1m618co>** to contain **Marta Golpista**",
+      "time" : {
+        "start" : 1670180163137,
+        "stop" : 1670180163137,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #root > div > div.MuiBox-root.css-v3si1q > div.MuiBox-root.css-uery8 > div.MuiBox-root.css-ufvb1 > div.MuiBox-root.css-1ofqig9 > div > div.MuiBox-root.css-1ofqig9 > div:nth-child(1) > div.MuiBox-root.css-w56oqh > button",
+      "time" : {
+        "start" : 1670180163137,
+        "stop" : 1670180163146,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180163146,
+        "stop" : 1670180163263,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://facetoface-front.vercel.app/register-interview",
+      "time" : {
+        "start" : 1670180163263,
+        "stop" : 1670180163263,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-dateInterview-register-interview",
+      "time" : {
+        "start" : 1670180163263,
+        "stop" : 1670180163273,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type 2022-12-31",
+      "time" : {
+        "start" : 1670180163273,
+        "stop" : 1670180163536,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-scheduleInterview-register-interview",
+      "time" : {
+        "start" : 1670180163536,
+        "stop" : 1670180163546,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type 14:00",
+      "time" : {
+        "start" : 1670180163546,
+        "stop" : 1670180163748,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #input-observation-register-interview",
+      "time" : {
+        "start" : 1670180163748,
+        "stop" : 1670180163757,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type Marta Golpista",
+      "time" : {
+        "start" : 1670180163757,
+        "stop" : 1670180164128,
+        "duration" : 371
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait 100",
+      "time" : {
+        "start" : 1670180164128,
+        "stop" : 1670180164233,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #button-submit-register-interview",
+      "time" : {
+        "start" : 1670180164233,
+        "stop" : 1670180164242,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180164242,
+        "stop" : 1670180164330,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/entrevista/marcar-entrevista",
+      "time" : {
+        "start" : 1670180164330,
+        "stop" : 1670180164330,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait 1000",
+      "time" : {
+        "start" : 1670180164330,
+        "stop" : 1670180165333,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .Toastify__toast-body > :nth-child(2)",
+      "time" : {
+        "start" : 1670180165333,
+        "stop" : 1670180165968,
+        "duration" : 635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://facetoface-front.vercel.app/",
+      "time" : {
+        "start" : 1670180165967,
+        "stop" : 1670180165967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/candidato?pagina=0&tamanho=10",
+      "time" : {
+        "start" : 1670180165967,
+        "stop" : 1670180165967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario?pagina=0&tamanho=10",
+      "time" : {
+        "start" : 1670180165968,
+        "stop" : 1670180165968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<div>** to contain **Entrevista cadastrada com sucesso!**",
+      "time" : {
+        "start" : 1670180165968,
+        "stop" : 1670180165968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #root > div > div.MuiDrawer-root.MuiDrawer-docked.css-1tu59u4 > div > div > div.MuiBox-root.css-1rr4qq7 > nav > div:nth-child(5)",
+      "time" : {
+        "start" : 1670180165968,
+        "stop" : 1670180165980,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180165980,
+        "stop" : 1670180166174,
+        "duration" : 194
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://facetoface-front.vercel.app/schedule",
+      "time" : {
+        "start" : 1670180166173,
+        "stop" : 1670180166173,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/entrevista/listar-por-mes?pagina=0&tamanho=10&mes=12&ano=2022",
+      "time" : {
+        "start" : 1670180166173,
+        "stop" : 1670180166173,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/entrevista/listar-por-mes?pagina=0&tamanho=10&mes=12&ano=2022",
+      "time" : {
+        "start" : 1670180166173,
+        "stop" : 1670180166173,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait 3000",
+      "time" : {
+        "start" : 1670180166174,
+        "stop" : 1670180169176,
+        "duration" : 3002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #container-calendar-schedules > div > div > div.fc-view-harness.fc-view-harness-active > div > table > tbody > tr > td > div > div > div > table > tbody > tr:nth-child(5) > td.fc-daygrid-day.fc-day.fc-day-sat.fc-day-future > div > div.fc-daygrid-day-events > div:nth-child(1) > a",
+      "time" : {
+        "start" : 1670180169176,
+        "stop" : 1670180169189,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "scrollIntoView",
+      "time" : {
+        "start" : 1670180169189,
+        "stop" : 1670180169210,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<a.fc-daygrid-event.fc-daygrid-dot-event.fc-event.fc-event-start.fc-event-end.fc-event-future>** to be **visible**",
+      "time" : {
+        "start" : 1670180169210,
+        "stop" : 1670180169210,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #container-calendar-schedules > div > div > div.fc-view-harness.fc-view-harness-active > div > table > tbody > tr > td > div > div > div > table > tbody > tr:nth-child(5) > td.fc-daygrid-day.fc-day.fc-day-sat.fc-day-future > div > div.fc-daygrid-day-events > div:nth-child(1) > a",
+      "time" : {
+        "start" : 1670180169210,
+        "stop" : 1670180169224,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180169224,
+        "stop" : 1670180169354,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://facetoface-front.vercel.app/detail-interview",
+      "time" : {
+        "start" : 1670180169354,
+        "stop" : 1670180169354,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #root > div > div.MuiBox-root.css-v3si1q > div.MuiBox-root.css-lt6aye > div > p:nth-child(2)",
+      "time" : {
+        "start" : 1670180169354,
+        "stop" : 1670180169369,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<p.MuiTypography-root.MuiTypography-body1.css-9l3uo3>** to contain **pietro.bianchi@dbccompany.com.br**",
+      "time" : {
+        "start" : 1670180169369,
+        "stop" : 1670180169369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #root > div > div.MuiBox-root.css-v3si1q > div.MuiBox-root.css-lt6aye > div > div > button:nth-child(2)",
+      "time" : {
+        "start" : 1670180169369,
+        "stop" : 1670180169382,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180169382,
+        "stop" : 1670180169475,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "DELETE http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/entrevista/189",
+      "time" : {
+        "start" : 1670180169475,
+        "stop" : 1670180169475,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #root > div > div.MuiDrawer-root.MuiDrawer-docked.css-1tu59u4 > div > div > div.MuiBox-root.css-1rr4qq7 > nav > div:nth-child(5)",
+      "time" : {
+        "start" : 1670180169475,
+        "stop" : 1670180169489,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1670180169489,
+        "stop" : 1670180169651,
+        "duration" : 162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://facetoface-front.vercel.app/schedule",
+      "time" : {
+        "start" : 1670180169651,
+        "stop" : 1670180169651,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/entrevista/listar-por-mes?pagina=0&tamanho=10&mes=12&ano=2022",
+      "time" : {
+        "start" : 1670180169651,
+        "stop" : 1670180169651,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/entrevista/listar-por-mes?pagina=0&tamanho=10&mes=12&ano=2022",
+      "time" : {
+        "start" : 1670180169651,
+        "stop" : 1670180169651,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait 3000",
+      "time" : {
+        "start" : 1670180169651,
+        "stop" : 1670180172654,
+        "duration" : 3003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://facetoface-front.vercel.app/",
+      "time" : {
+        "start" : 1670180172654,
+        "stop" : 1670180172654,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/candidato?pagina=0&tamanho=10",
+      "time" : {
+        "start" : 1670180172654,
+        "stop" : 1670180172654,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/usuario?pagina=0&tamanho=10",
+      "time" : {
+        "start" : 1670180172654,
+        "stop" : 1670180172654,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/candidato?pagina=0&tamanho=10",
+      "time" : {
+        "start" : 1670180172654,
+        "stop" : 1670180172654,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back/entrevista/listar-por-mes?pagina=0&tamanho=10&mes=12&ano=2022",
+      "time" : {
+        "start" : 1670180172654,
+        "stop" : 1670180172654,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #container-calendar-schedules > div > div > div.fc-view-harness.fc-view-harness-active > div > table > tbody > tr > td > div > div > div > table > tbody > tr:nth-child(5) > td.fc-daygrid-day.fc-day.fc-day-sat.fc-day-future > div > div.fc-daygrid-day-events > div:nth-child(1) > a",
+      "time" : {
+        "start" : 1670180172654,
+        "stop" : 1670180172658,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **#container-calendar-schedules > div > div > div.fc-view-harness.fc-view-harness-active > div > table > tbody > tr > td > div > div > div > table > tbody > tr:nth-child(5) > td.fc-daygrid-day.fc-day.fc-day-sat.fc-day-future > div > div.fc-daygrid-day-events > div:nth-child(1) > a** not to exist in the DOM",
+      "time" : {
+        "start" : 1670180172658,
+        "stop" : 1670180172658,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "#container-calendar-schedules > div > div > div.fc-view-harness.fc-view-harness-active > div > table > tbody > tr > td > div > div > div > table > tbody > tr:nth-child(5) > td.fc-daygrid-day.fc-day.fc-day-sat.fc-day-future > div > div.fc-daygrid-day-events > div:nth-child(1) > a"
+      }, {
+        "name" : "expected",
+        "value" : "#container-calendar-schedules > div > div > div.fc-view-harness.fc-view-harness-active > div > table > tbody > tr > td > div > div > div > table > tbody > tr:nth-child(5) > td.fc-daygrid-day.fc-day.fc-day-sat.fc-day-future > div > div.fc-daygrid-day-events > div:nth-child(1) > a"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 201 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back//auth/fazer-login",
+      "time" : {
+        "start" : 1670180172658,
+        "stop" : 1670180172838,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "as (\"response\")",
+      "time" : {
+        "start" : 1670180172838,
+        "stop" : 1670180172838,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get @response",
+      "time" : {
+        "start" : 1670180172838,
+        "stop" : 1670180172840,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back//candidato/findbyemails/pietro.bianchi@dbccompany.com.br",
+      "time" : {
+        "start" : 1670180172841,
+        "stop" : 1670180172908,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "as (\"response\")",
+      "time" : {
+        "start" : 1670180172908,
+        "stop" : 1670180172908,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get @response",
+      "time" : {
+        "start" : 1670180172908,
+        "stop" : 1670180172910,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "DELETE 204 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back//curriculo/delete-fisico/395",
+      "time" : {
+        "start" : 1670180172911,
+        "stop" : 1670180173156,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "as (\"response\")",
+      "time" : {
+        "start" : 1670180173156,
+        "stop" : 1670180173157,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get @response",
+      "time" : {
+        "start" : 1670180173157,
+        "stop" : 1670180173158,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "DELETE 204 http://vemser-dbc.dbccompany.com.br:39000/vemser/facetoface-back//candidato/delete-fisico/395",
+      "time" : {
+        "start" : 1670180173158,
+        "stop" : 1670180173249,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "as (\"response\")",
+      "time" : {
+        "start" : 1670180173249,
+        "stop" : 1670180173249,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get @response",
+      "time" : {
+        "start" : 1670180173249,
+        "stop" : 1670180173251,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 126,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fluxo teste"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste executado com sucesso",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d28af17b4f32b25a.json",
+  "parameterValues" : [ ]
+}
